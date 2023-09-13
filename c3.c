@@ -8,9 +8,9 @@ int main() {
     scanf ("%d", &num1);
     printf("Escreva um segundo número \n");
     scanf ("%d", &num2);
-    if (num1 > num2) {
-    printf ("O primeiro número digitado é maior: %d",&num1);
+    if (num1==num2) {
+    printf ("Os números são iguais \n");
     } else {
-           printf ("O primeiro número digitado é maior: %d",&num2);
+          printf ("Os números são diferentes \n"); 
     return 0;
 } }
